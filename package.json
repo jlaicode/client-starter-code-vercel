@@ -32,7 +32,8 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:5001",
+  "-comment": "localhost:5001",
+  "proxy": "https://server-starter-code-vercel.vercel.app:5001",
   "browserslist": {
     "production": [
       ">0.2%",
