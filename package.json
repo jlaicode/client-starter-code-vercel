@@ -20,6 +20,7 @@
     "@material-ui/core": "^4.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build --openssl-legacy-provider",
     "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build --openssl-legacy-provider",
     "test": "react-scripts test",
