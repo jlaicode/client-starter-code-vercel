@@ -34,7 +34,7 @@
     ]
   },
   "-comment": "localhost:5001",
-  "proxy": "https://server-starter-code-vercel.vercel.app:5001",
+  "proxy": "https://server-starter-code-vercel.vercel.app:5001/api",
   "browserslist": {
     "production": [
       ">0.2%",
